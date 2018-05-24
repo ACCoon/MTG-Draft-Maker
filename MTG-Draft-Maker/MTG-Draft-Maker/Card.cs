@@ -8,5 +8,9 @@ namespace MTG_Draft_Maker
 {
     class Card
     {
+        public int ID;
+        public string Name;
+        public string Set;
+        public string Rarity;
     }
 }
