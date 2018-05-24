@@ -13,6 +13,14 @@ namespace MTG_Draft_Maker
         private string set;
         private string rarity;
 
+        public void Card(int id, string name, string set, string rarity)
+        {
+            this.id = id;
+            this.name = name;
+            this.set = set;
+            this.rarity = rarity;
+        }
+
         public int getID()
         {
             return id;
